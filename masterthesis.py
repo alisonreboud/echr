@@ -619,7 +619,7 @@ plt.ylabel('Projected variance')
 #For Doc2vec : example with Task 2 
 
 
-#Updated shit 
+#Updated
 balanced_context=[]
 for n in range (len(balanced_dataset)):
     communication_texts = balanced_dataset[n]["comm_text"][0:-1]
