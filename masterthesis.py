@@ -105,6 +105,12 @@ def perform_mlp(X,labels):
     scores = cross_val_score(clf,X,labels, cv=10)
     return scores
     
+    
+ def perform_randomforest(X,labels):
+    clf=ensemble.RandomForestClassifier()
+    scores = cross_val_score(clf,X,labels, cv=10)
+    return scores
+    
 #----------------------------------------------------------
 #Importing files and computing scores for the reference study 
        
